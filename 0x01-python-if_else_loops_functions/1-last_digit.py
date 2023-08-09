@@ -12,5 +12,5 @@ elif number == 0:
     print("Last digit of {} is {} and is 0".format(number, last_digit_str))
 else:
     if number < 0:
-        last_digit = -int(last_digit_str)
+        last_digit_str = "-" + last_digit_str
     print("{} {} is {} and {}".format(First, number, last_digit_str, Last1))
