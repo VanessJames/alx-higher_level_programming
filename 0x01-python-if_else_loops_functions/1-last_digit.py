@@ -5,7 +5,7 @@ number_str = str(number)
 last_digit = number_str[-1]
 First = "Last digit of"
 Last = "is greater than 5"
-Last1 = "is less than 6 nd not 0"
+Last1 = "is less than 6 and not 0"
 if number > 5:
     print("{} {} is {} and {}".format(First, number, last_digit, Last))
 elif number == 0:
