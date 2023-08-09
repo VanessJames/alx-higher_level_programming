@@ -8,7 +8,7 @@ def fizzbuzz():
             output += "Buzz "
         if not output:
             output = str(num)
-        print(output, end=" ")
+        print(output, end=" " if num < 100 else "\n")
 
 
 fizzbuzz()
