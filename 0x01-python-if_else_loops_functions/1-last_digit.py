@@ -8,7 +8,9 @@ Last = "is greater than 5"
 Last1 = "is less than 6 and not 0"
 if number > 5:
     print("{} {} is {} and {}".format(First, number, last_digit, Last))
-elif last_digit == 0:
+elif number == 0:
     print("Last digit of {} is {} and is 0".format(number, last_digit))
 else:
+    if number < 0:
+        last_digit = -last_digit
     print("{} {} is {} and {}".format(First, number, last_digit, Last1))
