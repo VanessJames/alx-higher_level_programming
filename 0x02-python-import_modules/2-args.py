@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import sys
 
+
 def main():
     arguments = sys.argv[1:]
     num_arguments = len(arguments)
@@ -13,6 +14,7 @@ def main():
 
         for idx, arg in enumerate(arguments, start=1):
             print(f"{idx}: {arg}")
+
 
 if __name__ == "__main__":
     main()
