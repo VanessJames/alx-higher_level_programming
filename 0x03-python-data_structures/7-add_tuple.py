@@ -6,9 +6,3 @@ def add_tuple(tuple_a=(), tuple_b=()):
     
     result = (a[0] + b[0], a[1] + b[1])
     return result
-
-# Example usage
-tuple1 = (1, 2)
-tuple2 = (3, 4)
-result_tuple = add_tuple(tuple1, tuple2)
-print(result_tuple)
